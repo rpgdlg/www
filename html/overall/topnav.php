@@ -13,11 +13,27 @@
                     <nav class="mbr-navbar__menu-box mbr-navbar__menu-box--inline-right">
                         <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-decorator mbr-buttons--active"><li class="mbr-navbar__item">
                           <a class="mbr-buttons__link btn text-white" href="#">INICIO</a></li><li class="mbr-navbar__item">
-                          <a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">INICIAR SESIÓN</a></li><li class="mbr-navbar__item">
-                        <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" data-toggle="modal" data-target="#Registro">REGISTRO</a></li></ul></div>
+                           <?php if (!isset($_SESSION['app_id'])){
+                             echo '<a class="mbr-buttons__link btn text-white" data-toggle="modal" data-target="#Login">INICIAR SESIÓN</a></li><li class="mbr-navbar__item">
+                           <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" data-toggle="modal" data-target="#Registro">REGISTRO</a></li></ul></div>';
+                           }else{
+                             echo '<a class="mbr-buttons__link btn text-white" href="?view?perfil&id='. $_SESSION['app_id'] . '">' . strtoupper($users[$_SESSION['app_id']]['user']) . '</a></li><li class="mbr-navbar__item">
+                              <div class="mbr-navbar__column"><ul class="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active"><li class="mbr-navbar__item"><a class="mbr-buttons__btn btn btn-danger" href="?view=cuenta">MI CUENTA</a></li></ul></div>
+                             ';
+                           }
+                           ?>
                     </nav>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<?php
+if (!isset($_SESSION['app_id'])){
+  include(HTML_DIR .'public/login.html');
+  include(HTML_DIR .'public/reg.html');
+  include(HTML_DIR .'public/lostpass.html');
+}
+
+?>
