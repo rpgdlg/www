@@ -16,7 +16,7 @@
     } else {
       $users = false;
     }
-    $db->librerar($sql);
+    $db->liberar($sql);
     $db->close();
 
     return $users;
