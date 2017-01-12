@@ -6,12 +6,12 @@
             </div>
             <div class="mbr-social-icons mbr-social-icons--style-1 col-sm-8">
               <a class="mbr-social-icons__icon socicon-bg-twitter" title="Twitter" target="_blank" href="#"><i class="socicon socicon-twitter"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-facebook" title="Facebook" target="_blank" href="https://www.facebook.com/prinick.narvaez"><i class="socicon socicon-facebook"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-googleplus" title="Google+" target="_blank" href="https://plus.google.com/u/0/+PrinickNarv%C3%A1ez"><i class="socicon socicon-googleplus"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-youtube" title="YouTube" target="_blank" href="http://youtube.com/prinick96"><i class="socicon socicon-youtube"></i></a>
+              <a class="mbr-social-icons__icon socicon-bg-facebook" title="Facebook" target="_blank" href="#"><i class="socicon socicon-facebook"></i></a>
+              <a class="mbr-social-icons__icon socicon-bg-googleplus" title="Google+" target="_blank" href="#"><i class="socicon socicon-googleplus"></i></a>
+              <a class="mbr-social-icons__icon socicon-bg-youtube" title="YouTube" target="_blank" href="#"><i class="socicon socicon-youtube"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-instagram" title="Instagram" target="_blank" href="#"><i class="socicon socicon-instagram"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-pinterest" title="Pinterest" target="_blank" href="#"><i class="socicon socicon-pinterest"></i></a>
-              <a class="mbr-social-icons__icon socicon-bg-github" title="GitHub" target="_blank" href="https://github.com/prinick96"><i class="socicon socicon-github"></i></a>
+              <a class="mbr-social-icons__icon socicon-bg-github" title="GitHub" target="_blank" href="#"><i class="socicon socicon-github"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-behance" title="Behance" target="_blank" href="#"><i class="socicon socicon-behance"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-tumblr" title="Tumblr" target="_blank" href="#"><i class="socicon socicon-tumblr"></i></a>
               <a class="mbr-social-icons__icon socicon-bg-linkedin" title="LinkedIn" target="_blank" href="#"><i class="socicon socicon-linkedin"></i></a>
